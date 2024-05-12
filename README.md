@@ -9,15 +9,17 @@
 [![Release](https://img.shields.io/github/release/boerderij/varken.svg?style=flat-square)](https://github.com/Boerderij/Varken/releases/latest)
 [![Docker Pulls](https://img.shields.io/docker/pulls/boerderij/varken.svg)](https://hub.docker.com/r/boerderij/varken/)
 
-Dutch for PIG. PIG is an Acronym for Plex/InfluxDB/Grafana
+Fork to support Victoria-Metrics
+
+Dutch for PIG. PIG is an Acronym for Plex/Victoria-Metrics/Grafana
 
 Varken is a standalone application to aggregate data from the Plex 
-ecosystem into InfluxDB using Grafana for a frontend
+ecosystem into Victoria-Metrics using Grafana for a frontend
 
 Requirements:
 * [Python 3.6.7+](https://www.python.org/downloads/release/python-367/)
 * [Python3-pip](https://pip.pypa.io/en/stable/installing/)
-* [InfluxDB 1.8.x](https://www.influxdata.com/)
+* [Victoria-Metrics](https://docs.victoriametrics.com/)
 * [Grafana](https://grafana.com/)
 
 <p align="center">
@@ -48,13 +50,10 @@ Please read [Asking for Support](https://wiki.cajun.pro/books/varken/chapter/ask
 
 [Click here for quick access to discord support](http://cyborg.decreator.dev/channels/518970285773422592/530424560504537105/). No app or account needed!
     
-### InfluxDB
-[InfluxDB Installation Documentation](https://wiki.cajun.pro/books/varken/page/influxdb-d1f)
-Note: Only v1.8.x is currently supported.
- 
-Influxdb is required but not packaged as part of Varken. Varken will create
+### Victoria-Metrics
+Victoria-Metrics is required but not packaged as part of Varken. Varken will create
 its database on its own. If you choose to give varken user permissions that
-do not include database creation, please ensure you create an influx database
+do not include database creation, please ensure you create a database
 named `varken`
 
 ### Grafana
