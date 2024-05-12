@@ -9,7 +9,7 @@
 [![Release](https://img.shields.io/github/release/boerderij/varken.svg?style=flat-square)](https://github.com/Boerderij/Varken/releases/latest)
 [![Docker Pulls](https://img.shields.io/docker/pulls/boerderij/varken.svg)](https://hub.docker.com/r/boerderij/varken/)
 
-Fork to support Victoria-Metrics
+**Fork to support Victoria-Metrics**
 
 Dutch for PIG. PIG is an Acronym for Plex/Victoria-Metrics/Grafana
 
