@@ -26,7 +26,7 @@ LABEL maintainer="freender" \
 
 RUN mkdir "${APP_DIR}" && \
   mkdir "${CONFIG_DIR}" && \
-  adduser -u 99 -G 100 varken -D -h "${CONFIG_DIR}"
+  adduser -u 1000 -G users varken -D -h "${CONFIG_DIR}"
 
 COPY . ${APP_DIR}
 
