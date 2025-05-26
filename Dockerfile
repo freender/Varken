@@ -20,7 +20,7 @@ LABEL maintainer="freender" \
   org.opencontainers.image.revision=$VCS_REF \
   org.opencontainers.image.vendor="freender" \
   org.opencontainers.image.title="varken" \
-  org.opencontainers.image.description="Varken is a standalone application to aggregate data from the Plex ecosystem into InfluxDB using Grafana for a frontend" \
+  org.opencontainers.image.description="Varken is a standalone application to aggregate data from the Plex ecosystem into InfluxDB using Grafana for a frontend"  \
   org.opencontainers.image.licenses="MIT"
 
 
